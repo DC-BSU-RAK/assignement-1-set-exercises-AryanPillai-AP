@@ -1,0 +1,50 @@
+/* setting up the basic page stuff */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* makes the text look nicer */
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd; /* light background color */
+  color: #222; /* almost black text */
+}
+
+/* this is the top banner/header */
+header {
+  background-color: #6a1b9a; /* purple background */
+  color: white; /* white text so it stands out */
+  text-align: center; /* puts the text in the middle */
+  padding: 1rem; /* adds space inside the box */
+}
+
+/* main content area in the middle of the page */
+main {
+  max-width: 960px; /* keeps it from getting too wide */
+  margin: 2rem auto; /* centers it and adds space above/below */
+  padding: 1rem; /* padding inside the box */
+}
+
+/* spacing between different sections */
+section {
+  margin-bottom: 2rem; /* adds space after each section */
+}
+
+/* makes all the headings purple */
+h1, h2, h3 {
+  color: #6a1b9a; /* same purple as the header */
+}
+
+/* this styles the big code boxes */
+pre {
+  background-color: #f0f0f0; /* light gray background */
+  padding: 1em; /* space inside the code box */
+  overflow-x: auto; /* lets it scroll sideways if the code is too long */
+  border-left: 5px solid #6a1b9a; /* purple bar on the side */
+}
+
+/* this is for little inline code bits */
+code {
+  font-family: Consolas, monospace; /* makes it look like coding font */
+  color: #c7254e; /* reddish color for the text */
+  background-color: #f9f2f4; /* really light pink background */
+  padding: 2px 4px; /* tiny space inside the code box */
+  border-radius: 4px; /* rounds the corners a bit */
+}

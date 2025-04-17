@@ -1,0 +1,49 @@
+/* Set basic styles for the whole page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 20px;
+  background-color: #f0f0f5;
+  color: #333;
+}
+
+/* Navigation bar styling */
+.navbar {
+  background-color: #20232a;
+  padding: 1em;
+  text-align: center;
+}
+
+/* Navigation links */
+.navbar a {
+  color: #61dafb;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hover effect for nav links */
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Space between sections */
+section {
+  margin: 40px 0;
+}
+
+/* Styled button link */
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Hover effect for button */
+.button-link:hover {
+  background-color: #cc0000;
+}
